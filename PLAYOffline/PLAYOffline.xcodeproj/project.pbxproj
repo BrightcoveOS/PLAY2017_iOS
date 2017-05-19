@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2E373C1ECCA6E000BC5F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E373B1ECCA6E000BC5F27 /* main.m */; };
+		AA2E373F1ECCA6E000BC5F27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E373E1ECCA6E000BC5F27 /* AppDelegate.m */; };
+		AA2E37481ECCA6E000BC5F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37461ECCA6E000BC5F27 /* Main.storyboard */; };
+		AA2E374A1ECCA6E000BC5F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37491ECCA6E000BC5F27 /* Assets.xcassets */; };
+		AA2E374D1ECCA6E000BC5F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E374B1ECCA6E000BC5F27 /* LaunchScreen.storyboard */; };
+		AA2E375A1ECCADD500BC5F27 /* DownloadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E37551ECCADD500BC5F27 /* DownloadsViewController.m */; };
+		AA2E375B1ECCADD500BC5F27 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E37571ECCADD500BC5F27 /* SettingsViewController.m */; };
+		AA2E375C1ECCADD500BC5F27 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E37591ECCADD500BC5F27 /* VideosViewController.m */; };
+		AA2E376A1ECCADE200BC5F27 /* bcov.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E375E1ECCADE200BC5F27 /* bcov.png */; };
+		AA2E376B1ECCADE200BC5F27 /* cancelled.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E375F1ECCADE200BC5F27 /* cancelled.png */; };
+		AA2E376C1ECCADE200BC5F27 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37601ECCADE200BC5F27 /* download.png */; };
+		AA2E376D1ECCADE200BC5F27 /* downloaded.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37611ECCADE200BC5F27 /* downloaded.png */; };
+		AA2E376E1ECCADE200BC5F27 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37621ECCADE200BC5F27 /* error.png */; };
+		AA2E376F1ECCADE200BC5F27 /* error2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37631ECCADE200BC5F27 /* error2.png */; };
+		AA2E37701ECCADE200BC5F27 /* inprogress.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37641ECCADE200BC5F27 /* inprogress.png */; };
+		AA2E37711ECCADE200BC5F27 /* paused.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37651ECCADE200BC5F27 /* paused.png */; };
+		AA2E37721ECCADE200BC5F27 /* play2017-logo-ondark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37661ECCADE200BC5F27 /* play2017-logo-ondark.png */; };
+		AA2E37731ECCADE200BC5F27 /* play2017-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37671ECCADE200BC5F27 /* play2017-logo.png */; };
+		AA2E37741ECCADE200BC5F27 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37681ECCADE200BC5F27 /* settings@2x.png */; };
+		AA2E37751ECCADE200BC5F27 /* videoplaylist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E37691ECCADE200BC5F27 /* videoplaylist@2x.png */; };
+		AA2E37781ECCAE7700BC5F27 /* BrightcovePlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2E37761ECCAE4300BC5F27 /* BrightcovePlayerSDK.framework */; };
+		AA2E37791ECCAE7700BC5F27 /* BrightcovePlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA2E37761ECCAE4300BC5F27 /* BrightcovePlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA2E377A1ECCAE7700BC5F27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA2E37791ECCAE7700BC5F27 /* BrightcovePlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA2E37371ECCA6E000BC5F27 /* PLAYOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLAYOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2E373B1ECCA6E000BC5F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA2E373D1ECCA6E000BC5F27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA2E373E1ECCA6E000BC5F27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA2E37471ECCA6E000BC5F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2E37491ECCA6E000BC5F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2E374C1ECCA6E000BC5F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA2E374E1ECCA6E000BC5F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2E37541ECCADD500BC5F27 /* DownloadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadsViewController.h; sourceTree = "<group>"; };
+		AA2E37551ECCADD500BC5F27 /* DownloadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadsViewController.m; sourceTree = "<group>"; };
+		AA2E37561ECCADD500BC5F27 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AA2E37571ECCADD500BC5F27 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AA2E37581ECCADD500BC5F27 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		AA2E37591ECCADD500BC5F27 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		AA2E375E1ECCADE200BC5F27 /* bcov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov.png; sourceTree = "<group>"; };
+		AA2E375F1ECCADE200BC5F27 /* cancelled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelled.png; sourceTree = "<group>"; };
+		AA2E37601ECCADE200BC5F27 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		AA2E37611ECCADE200BC5F27 /* downloaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloaded.png; sourceTree = "<group>"; };
+		AA2E37621ECCADE200BC5F27 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		AA2E37631ECCADE200BC5F27 /* error2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error2.png; sourceTree = "<group>"; };
+		AA2E37641ECCADE200BC5F27 /* inprogress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inprogress.png; sourceTree = "<group>"; };
+		AA2E37651ECCADE200BC5F27 /* paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paused.png; sourceTree = "<group>"; };
+		AA2E37661ECCADE200BC5F27 /* play2017-logo-ondark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play2017-logo-ondark.png"; sourceTree = "<group>"; };
+		AA2E37671ECCADE200BC5F27 /* play2017-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play2017-logo.png"; sourceTree = "<group>"; };
+		AA2E37681ECCADE200BC5F27 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		AA2E37691ECCADE200BC5F27 /* videoplaylist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoplaylist@2x.png"; sourceTree = "<group>"; };
+		AA2E37761ECCAE4300BC5F27 /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2E37341ECCA6E000BC5F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2E37781ECCAE7700BC5F27 /* BrightcovePlayerSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2E372E1ECCA6E000BC5F27 = {
+			isa = PBXGroup;
+			children = (
+				AA2E37761ECCAE4300BC5F27 /* BrightcovePlayerSDK.framework */,
+				AA2E37391ECCA6E000BC5F27 /* PLAYOffline */,
+				AA2E37381ECCA6E000BC5F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2E37381ECCA6E000BC5F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E37371ECCA6E000BC5F27 /* PLAYOffline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2E37391ECCA6E000BC5F27 /* PLAYOffline */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E373D1ECCA6E000BC5F27 /* AppDelegate.h */,
+				AA2E373E1ECCA6E000BC5F27 /* AppDelegate.m */,
+				AA2E37541ECCADD500BC5F27 /* DownloadsViewController.h */,
+				AA2E37551ECCADD500BC5F27 /* DownloadsViewController.m */,
+				AA2E37561ECCADD500BC5F27 /* SettingsViewController.h */,
+				AA2E37571ECCADD500BC5F27 /* SettingsViewController.m */,
+				AA2E37581ECCADD500BC5F27 /* VideosViewController.h */,
+				AA2E37591ECCADD500BC5F27 /* VideosViewController.m */,
+				AA2E37461ECCA6E000BC5F27 /* Main.storyboard */,
+				AA2E37491ECCA6E000BC5F27 /* Assets.xcassets */,
+				AA2E374B1ECCA6E000BC5F27 /* LaunchScreen.storyboard */,
+				AA2E374E1ECCA6E000BC5F27 /* Info.plist */,
+				AA2E375D1ECCADE200BC5F27 /* images */,
+				AA2E373A1ECCA6E000BC5F27 /* Supporting Files */,
+			);
+			path = PLAYOffline;
+			sourceTree = "<group>";
+		};
+		AA2E373A1ECCA6E000BC5F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E373B1ECCA6E000BC5F27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA2E375D1ECCADE200BC5F27 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E375E1ECCADE200BC5F27 /* bcov.png */,
+				AA2E375F1ECCADE200BC5F27 /* cancelled.png */,
+				AA2E37601ECCADE200BC5F27 /* download.png */,
+				AA2E37611ECCADE200BC5F27 /* downloaded.png */,
+				AA2E37621ECCADE200BC5F27 /* error.png */,
+				AA2E37631ECCADE200BC5F27 /* error2.png */,
+				AA2E37641ECCADE200BC5F27 /* inprogress.png */,
+				AA2E37651ECCADE200BC5F27 /* paused.png */,
+				AA2E37661ECCADE200BC5F27 /* play2017-logo-ondark.png */,
+				AA2E37671ECCADE200BC5F27 /* play2017-logo.png */,
+				AA2E37681ECCADE200BC5F27 /* settings@2x.png */,
+				AA2E37691ECCADE200BC5F27 /* videoplaylist@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2E37361ECCA6E000BC5F27 /* PLAYOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2E37511ECCA6E000BC5F27 /* Build configuration list for PBXNativeTarget "PLAYOffline" */;
+			buildPhases = (
+				AA2E37331ECCA6E000BC5F27 /* Sources */,
+				AA2E37341ECCA6E000BC5F27 /* Frameworks */,
+				AA2E37351ECCA6E000BC5F27 /* Resources */,
+				AA2E377A1ECCAE7700BC5F27 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLAYOffline;
+			productName = PLAYOffline;
+			productReference = AA2E37371ECCA6E000BC5F27 /* PLAYOffline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2E372F1ECCA6E000BC5F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					AA2E37361ECCA6E000BC5F27 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XNV3M98BQL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA2E37321ECCA6E000BC5F27 /* Build configuration list for PBXProject "PLAYOffline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2E372E1ECCA6E000BC5F27;
+			productRefGroup = AA2E37381ECCA6E000BC5F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2E37361ECCA6E000BC5F27 /* PLAYOffline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2E37351ECCA6E000BC5F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2E37731ECCADE200BC5F27 /* play2017-logo.png in Resources */,
+				AA2E376B1ECCADE200BC5F27 /* cancelled.png in Resources */,
+				AA2E37721ECCADE200BC5F27 /* play2017-logo-ondark.png in Resources */,
+				AA2E374D1ECCA6E000BC5F27 /* LaunchScreen.storyboard in Resources */,
+				AA2E376F1ECCADE200BC5F27 /* error2.png in Resources */,
+				AA2E37701ECCADE200BC5F27 /* inprogress.png in Resources */,
+				AA2E376A1ECCADE200BC5F27 /* bcov.png in Resources */,
+				AA2E374A1ECCA6E000BC5F27 /* Assets.xcassets in Resources */,
+				AA2E37751ECCADE200BC5F27 /* videoplaylist@2x.png in Resources */,
+				AA2E37711ECCADE200BC5F27 /* paused.png in Resources */,
+				AA2E37741ECCADE200BC5F27 /* settings@2x.png in Resources */,
+				AA2E37481ECCA6E000BC5F27 /* Main.storyboard in Resources */,
+				AA2E376D1ECCADE200BC5F27 /* downloaded.png in Resources */,
+				AA2E376E1ECCADE200BC5F27 /* error.png in Resources */,
+				AA2E376C1ECCADE200BC5F27 /* download.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2E37331ECCA6E000BC5F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2E375A1ECCADD500BC5F27 /* DownloadsViewController.m in Sources */,
+				AA2E373F1ECCA6E000BC5F27 /* AppDelegate.m in Sources */,
+				AA2E373C1ECCA6E000BC5F27 /* main.m in Sources */,
+				AA2E375B1ECCADD500BC5F27 /* SettingsViewController.m in Sources */,
+				AA2E375C1ECCADD500BC5F27 /* VideosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA2E37461ECCA6E000BC5F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2E37471ECCA6E000BC5F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA2E374B1ECCA6E000BC5F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2E374C1ECCA6E000BC5F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2E374F1ECCA6E000BC5F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2E37501ECCA6E000BC5F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2E37521ECCA6E000BC5F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XNV3M98BQL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PLAYOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PLAYOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA2E37531ECCA6E000BC5F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XNV3M98BQL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PLAYOffline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PLAYOffline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2E37321ECCA6E000BC5F27 /* Build configuration list for PBXProject "PLAYOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2E374F1ECCA6E000BC5F27 /* Debug */,
+				AA2E37501ECCA6E000BC5F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2E37511ECCA6E000BC5F27 /* Build configuration list for PBXNativeTarget "PLAYOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2E37521ECCA6E000BC5F27 /* Debug */,
+				AA2E37531ECCA6E000BC5F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2E372F1ECCA6E000BC5F27 /* Project object */;
+}
